@@ -5,6 +5,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: orange;
 }
 
 h1{
@@ -28,7 +29,7 @@ p {
 }
 
 span {
-    color: red;
+    color: whitesmoke;
 
 }
 button {
