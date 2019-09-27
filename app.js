@@ -18,7 +18,7 @@ const promisifiedQuery = promisify(connection.query).bind(connection)
 const runQuery = async () =>{
     try {
         //wait for the promise to be handled before trying
-        let data = await promisifiedQuery('Select count(*) as num_email from users');
+        let data = await promisifiedQuery('Select count(*) as total from users');
         return(data)
         
     } catch (error) {
